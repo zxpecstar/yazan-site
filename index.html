@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>qurbix.duckdns.org</title>
+
+    <style>
+        body {
+            background: black url("https://www.transparenttextures.com/patterns/stardust.png");
+            color: #00ffff;
+            font-family: "Arial", monospace;
+        }
+
+        a {
+            color: #00ffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .sidebar {
+            width: 200px;
+            background-color: black;
+            border-right: 2px solid #00ffff;
+            padding: 10px;
+        }
+
+        .main-wrapper {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main {
+            width: 600px;
+            text-align: center;
+        }
+
+        .box {
+            border: 2px solid #00ffff;
+            padding: 15px;
+            margin: 20px 0;
+            background-color: rgba(0,0,0,0.7);
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #66ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .date {
+            color: yellow;
+            font-size: 14px;
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {opacity: 1;}
+            50% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+            <p class="date">
+    TODAY'S DATE:<br>
+    <span id="real-date"></span>
+</p>
+
+            <hr>
+
+<p><a href="chatrooms.html">chatrooms</a></p>
+<p><a href="guestbook.html">Sign my Guestbook</a></p>
+<p><a href="projects.html">projects</a></p>
+<p><a href="messageboard.html">Message Board</a></p>
+<p><a href="links.html">links</a></p>
+        </div>
+
+        <!-- MAIN CENTERED CONTENT -->
+        <div class="main-wrapper">
+            <div class="main">
+
+                <div class="title">
+                    <img src="qurbix.png" alt="Yazan's Website" class="logo">
+                    <p>qurbix.duckdns.org</p>
+                </div>
+
+                <div class="box">
+                    <p>Hello Web Surfer and welcome to my Website!</p>
+
+                    <p>
+                        I'm a programmer who has made many games, computer programs, and projects in the past, like the website that you're browsing right now.<br>
+              
+                    </p> I hope that you take the time to sign my Guestbook and take a look at some cool links here! If you have any questions, please don't hesitate to leave them on the message board as I check it regularly.
+
+                    <p>You can check out some of my work too!</p>
+
+                    <p>
+                        <a href="#">DROP!</a> &nbsp;&nbsp;&nbsp;
+                        <a href="#">Universal File Index (UFI)</a> &nbsp;&nbsp;&nbsp;
+                        And more!
+                    </p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
